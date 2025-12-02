@@ -16,6 +16,11 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
+
+    <footer class="text-center py-4 text-gray-500">
+        Laravel Book Catalog © {{ date('Y') }}
+    </footer>
+
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
             <livewire:layout.navigation />
