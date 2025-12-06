@@ -71,7 +71,7 @@
                             </h2>
 
 
-                            <p class="text-sm text-gray-700 mb-1">
+                            <p class="text-sm text-gray-500 mb-1">
                                 Автор: {{ $book->author->name }}
                             </p>
 
