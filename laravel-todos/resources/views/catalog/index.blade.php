@@ -58,6 +58,10 @@
                 </div>
             </form>
 
+            <div class="text-gray-600 mb-4">
+                 Намерени книги: {{ $books->total() }}
+            </div>
+
             {{-- Списък с книги --}}
             <div class="space-y-4">
                 @forelse($books as $book)
