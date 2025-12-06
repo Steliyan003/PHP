@@ -55,6 +55,11 @@
                         Търси
                     </button>
 
+                    <a href="{{ route('home') }}"
+                        class="px-4 py-2 bg-gray-300 hover:bg-gray-400 text-gray-900 rounded-md transition">
+                        Изчисти
+                    </a>
+
                 </div>
             </form>
 
