@@ -99,7 +99,7 @@
 
                     </a>
                 @empty
-                    <p>Няма намерени книги.</p>
+                    <p class="text-gray-600 text-lg p-4">Няма намерени книги по тези критерии.</p>
                 @endforelse
             </div>
 
