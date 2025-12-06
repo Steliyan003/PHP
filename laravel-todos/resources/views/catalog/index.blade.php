@@ -66,9 +66,10 @@
 
                         {{-- Лява част – текст --}}
                         <div class="flex-1">
-                            <h2 class="font-bold text-lg mb-1">
-                                {{ $book->title }}
+                            <h2 class="font-bold text-lg mb-1 truncate max-w-md">
+                                 {{ $book->title }}
                             </h2>
+
 
                             <p class="text-sm text-gray-700 mb-1">
                                 Автор: {{ $book->author->name }}
