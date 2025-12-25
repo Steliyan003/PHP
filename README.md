@@ -29,10 +29,7 @@
 
 ##  Използвани технологии
 
-- PHP 8.4
 - Laravel 12
 - SQLite база данни
-- TailwindCSS
-- Blade компоненти
-- GitHub Codespaces / Docker / Sail
-- Vite
+- CSS
+
